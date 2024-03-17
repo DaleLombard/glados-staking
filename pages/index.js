@@ -359,6 +359,10 @@ const Page = (props) => {
 
   return (
     <>
+    <Head>
+        <script src="https://cdn.tailwindcss.com"></script>
+      </Head>
+      <Header />
             <div data-theme="cupcake" class="relative overflow-x-hidden text-base font-body leading-6 bg-[#007f80] box-border min-h-full" itemscope=""
                 itemtype="http://schema.org/WebPage">
                 <div id="page">
@@ -612,6 +616,7 @@ const Page = (props) => {
                 </div>
                 <div id="w95-clock" class="fixed right-1 bottom-1 z-[99999] text-[0.889rem] px-[0.6rem] h-[34px] flex justify-center items-center border-2 uppercase border-[hsl(0,_0%,_60%)_hsl(0,_0%,_98%)_hsl(0,_0%,_98%)_hsl(0,_0%,_60%)]"></div>
             </div>
+            <Footer />
         </>
   )
 
